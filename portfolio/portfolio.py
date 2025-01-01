@@ -13,12 +13,6 @@ from rxconfig import config
 DATA = data.data
 
 
-class State(rx.State):
-    """The app state."""
-
-    ...
-
-
 def index() -> rx.Component:
     return rx.center(
         # rx.theme_panel(),
@@ -52,6 +46,7 @@ app = rx.App(
     )
 )
 
+# Page metadata
 title = DATA.title
 description = DATA.description
 image = DATA.image
