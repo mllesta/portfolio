@@ -1,8 +1,16 @@
-"""Welcome to Reflex! This file outlines the steps to create a basic app."""
-
 import reflex as rx
+from portfolio import data
+from portfolio.styles.styles import BASE_STYLE, MAX_WIDTH, STYLESHEETS, EmSize, Size
+from portfolio.views.about import about
+from portfolio.views.extra import extra
+from portfolio.views.footer import footer
+from portfolio.views.header import header
+from portfolio.views.info import info
+from portfolio.views.tech_stack import tech_stack
 
 from rxconfig import config
+
+DATA = data.data
 
 
 class State(rx.State):
@@ -12,28 +20,50 @@ class State(rx.State):
 
 
 def index() -> rx.Component:
-    # Welcome Page (Index)
-    return rx.container(
-        rx.color_mode.button(position="top-right"),
+    return rx.center(
+        # rx.theme_panel(),
         rx.vstack(
-            rx.heading("Welcome to Reflex!", size="9"),
-            rx.text(
-                "Get started by editing ",
-                rx.code(f"{config.app_name}/{config.app_name}.py"),
-                size="5",
-            ),
-            rx.link(
-                rx.button("Check out our docs!"),
-                href="https://reflex.dev/docs/getting-started/introduction/",
-                is_external=True,
-            ),
-            spacing="5",
-            justify="center",
-            min_height="85vh",
-        ),
-        rx.logo(),
+            header(DATA),
+            about(DATA.about),
+            rx.divider(),
+            tech_stack(DATA.technologies),
+            info("Experiencia", DATA.experience),
+            info("Proyectos", DATA.projects),
+            info("Formación", DATA.training),
+            extra(DATA.extras),
+            rx.divider(),
+            footer(DATA.media),
+            spacing=Size.MEDIUM.value,
+            padding_x=EmSize.MEDIUM.value,
+            padding_y=EmSize.BIG.value,
+            max_width=MAX_WIDTH,
+            width="100%"
+        )
     )
 
 
-app = rx.App()
-app.add_page(index)
+app = rx.App(
+    stylesheets=STYLESHEETS,
+    style=BASE_STYLE,
+    theme=rx.theme(
+        appearance="dark",
+        accent_color="grass",
+        radius="full"
+    )
+)
+
+title = DATA.title
+description = DATA.description
+image = DATA.image
+
+app.add_page(
+    index,
+    title=title,
+    description=description,
+    image=image,
+    meta=[
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+        {"name": "og:image", "content": image}
+    ]
+)
