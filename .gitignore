@@ -1,5 +1,7 @@
 # Dependencies
-
+*.db
+.web
+assets/external/
 
 # Production build
 
@@ -10,5 +12,6 @@
 
 # System files
 __pycache__
+*.py[cod]
 
 # Logs
