@@ -6,7 +6,7 @@ class Media:
         self.email = email
         self.cv = cv
         self.github = github
-        self.likedin = linkedin
+        self.linkedin = linkedin
 
 
 class Technology:
