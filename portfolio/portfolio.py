@@ -8,7 +8,6 @@ from portfolio.views.header import header
 from portfolio.views.info import info
 from portfolio.views.tech_stack import tech_stack
 
-from rxconfig import config
 
 DATA = data.data
 
