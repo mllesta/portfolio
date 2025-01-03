@@ -1,17 +1,13 @@
 # Dependencies
-*.db
-.web
-assets/external/
-
-# Production build
-
-
 # Environment files
+# Logs
+# Production build
+# System files
+*.db
+*.py[cod]
 .env
 .venv
-
-# System files
+.web
 __pycache__
-*.py[cod]
-
-# Logs
+__pycache__/
+assets/external/
