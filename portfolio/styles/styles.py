@@ -1,5 +1,6 @@
-from enum import Enum
 import reflex as rx
+from enum import Enum
+from .fonts import Font
 
 MAX_WIDTH = "900px"
 IMAGE_HEIGHT = "200px"
@@ -24,6 +25,7 @@ STYLESHEETS = [
 ]
 
 BASE_STYLE = {
+    "font_family": Font.DEFAULT.value,
     rx.button: {
         "--cursor-button": "pointer"
     }
