@@ -9,10 +9,7 @@ def info(title: str, info: list[Info]) -> rx.Component:
     return rx.vstack(
         heading(title),
         rx.vstack(
-            *[
-                info_detail(item)
-                for item in info
-            ],
+            *[info_detail(item) for item in info],
             spacing=Size.DEFAULT.value,
             width="100%"
         ),
