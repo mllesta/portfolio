@@ -85,14 +85,14 @@
     ],
     "experience": [
         {
-            "icon": "box-select",
+            "icon": "building-2",
             "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
             "subtitle": "Software QA Automation",
             "description": "Diseño y ejecución de tests manuales y automatizadas, desarrollo de tests E2E y API basados en Playwright y mejora del CI/CD con Jenkins.",
             "date": "Septiembre 2022 - Actualidad"
         },
         {
-            "icon": "box-select",
+            "icon": "building-2",
             "title": "NTT DATA Europe & LATAM",
             "subtitle": "Solutions Analyst Internship",
             "description": "Desarrollo de soluciones basadas en IA utilizando Java, Spring Boot y arquitecturas en contenedores.",
@@ -101,7 +101,7 @@
     ],
     "training": [
         {
-            "icon": "box-select",
+            "icon": "graduation-cap",
             "title": "Grado en Ingeniería en Tecnologías de Telecomunicación",
             "subtitle": "Universidad Carlos III de Madrid",
             "description": "Nota media: 7.0",
