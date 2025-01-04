@@ -1,5 +1,5 @@
 {
-    "title": "Mario Llesta Muñoz | Portafolio",
+    "title": "mariollesta",
     "description": "Creo webs.",
     "image": "/avatar.png",
     "avatar": "/avatar.png",
@@ -37,8 +37,8 @@
     ],
     "projects": [
         {
-            "icon": "box-select",
-            "title": "Gotoeat",
+            "icon": "utensils",
+            "title": "gotoeat",
             "subtitle": "Software propio",
             "description": "Descripción",
             "technologies": [
@@ -61,26 +61,26 @@
             ],
             "image": "/favicon.ico",
             "url": "https://google.com",
-            "github": "https://github.com"
+            "github": "https://github.com/mariollesta/gotoeat"
         },
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
+            "icon": "circle-user",
+            "title": "portfolio",
+            "subtitle": "Software propio",
+            "description": "Desarrollo de mi porfolio inspirado en la template de Mouredev.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
                 },
                 {
                     "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "name": "Reflex"
                 }
             ],
             "image": "/favicon.ico",
             "url": "https://google.com",
-            "github": "https://github.com"
+            "github": "https://github.com/mariollesta/portfolio"
         }
     ],
     "experience": [
