@@ -6,7 +6,7 @@ from portfolio.styles.styles import Size
 
 def footer(data: Media) -> rx.Component:
     return rx.vstack(
-        rx.text("Nombre"),
+        rx.text("Mario Llesta Muñoz"),
         media(data),
         spacing=Size.SMALL.value
     )

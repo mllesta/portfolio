@@ -5,14 +5,14 @@
     "avatar": "/avatar.png",
     "name": "Mario Llesta Muñoz",
     "skill": "Teleco Engineer & Software Developer",
-    "location": "Donde haya conexión a Internet",
+    "location": "Wherever there is an Internet connection",
     "media": {
         "email": "mario.llesta@proton.me",
         "cv": "/data/cv.pdf",
         "github": "https://github.com/mariollesta",
         "linkedin": "https://www.linkedin.com/in/mario-llesta/"
     },
-    "about": "Soy ingeniero de telecomunicaciones y desarrollo aplicaciones opensource para simplicar tareas.",
+    "about": "I am a telecommunications engineer and I develop opensource applications to simplify tasks.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -51,8 +51,8 @@
         {
             "icon": "utensils",
             "title": "gotoeat",
-            "subtitle": "Software propio",
-            "description": "Descripción",
+            "subtitle": "Proprietary software",
+            "description": "Web application for recommendations of places to eat",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -82,8 +82,8 @@
         {
             "icon": "circle-user",
             "title": "portfolio",
-            "subtitle": "Software propio",
-            "description": "Desarrollo de este porfolio inspirado en la template de Mouredev.",
+            "subtitle": "Proprietary software",
+            "description": "Development of this portfolio inspired by the Mouredev template.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -104,23 +104,23 @@
             "icon": "building-2",
             "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
             "subtitle": "Software QA Automation",
-            "description": "Diseño y ejecución de tests manuales y automatizadas, desarrollo de tests E2E y API basados en Playwright y mejora del CI/CD con Jenkins.",
-            "date": "Septiembre 2022 - Actualidad"
+            "description": "Design and execution of manual and automated tests, development of E2E and API tests based on Playwright and improvement of CI/CD with Jenkins.",
+            "date": "September 2022 - Current"
         },
         {
             "icon": "building-2",
             "title": "NTT DATA Europe & LATAM",
             "subtitle": "Solutions Analyst Internship",
-            "description": "Desarrollo de soluciones basadas en IA utilizando Java, Spring Boot y arquitecturas en contenedores.",
-            "date": "Febrero 2022 - Junio 2022"
+            "description": "Developing AI-based solutions using Java, Spring Boot and containerised architectures.",
+            "date": "February 2022 - June 2022"
         }
     ],
     "training": [
         {
             "icon": "graduation-cap",
-            "title": "Grado en Ingeniería en Tecnologías de Telecomunicación",
-            "subtitle": "Universidad Carlos III de Madrid",
-            "description": "Nota media: 7.0",
+            "title": "Degree in Engineering in Telecommunication Technology",
+            "subtitle": "University Carlos III of Madrid",
+            "description": "Average grade: 7.0",
             "date": "2018-2022",
             "certificate": "https://www.uc3m.es/grado/telecomunicacion"
         }
@@ -129,13 +129,13 @@
         {
             "image": "https://codingchallenges.fyi/img/logo.png",
             "title": "Load balancer",
-            "description": "Contribución al proyecto opensource Coding Challenges de John Crickett",
+            "description": "Contribution to John Crickett's opensource Coding Challenges project",
             "url": "ttps://github.com/mariollesta/loadbalancer"
         },
         {
             "image": "https://codingchallenges.fyi/img/logo.png",
             "title": "Unix wc tool",
-            "description": "Contribución al proyecto opensource Coding Challenges de John Crickett",
+            "description": "Contribution to John Crickett's opensource Coding Challenges project",
             "url": "ttps://github.com/mariollesta/cli-wordcount"
         }
     ]
