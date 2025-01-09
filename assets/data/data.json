@@ -12,7 +12,7 @@
         "github": "https://github.com/mariollesta",
         "linkedin": "https://www.linkedin.com/in/mario-llesta/"
     },
-    "about": "Soy un ingeniero al que le gusta desarrollar aplicaciones web para simplicar tareas.",
+    "about": "Soy ingeniero de telecomunicaciones y desarrollo aplicaciones opensource para simplicar tareas.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -76,14 +76,14 @@
                 }
             ],
             "image": "/gotoeat.jpg",
-            "url": "https://google.com",
+            "url": "",
             "github": "https://github.com/mariollesta/gotoeat"
         },
         {
             "icon": "circle-user",
             "title": "portfolio",
             "subtitle": "Software propio",
-            "description": "Desarrollo de mi porfolio inspirado en la template de Mouredev.",
+            "description": "Desarrollo de este porfolio inspirado en la template de Mouredev.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -94,8 +94,8 @@
                     "name": "Reflex"
                 }
             ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
+            "image": "",
+            "url": "",
             "github": "https://github.com/mariollesta/portfolio"
         }
     ],
