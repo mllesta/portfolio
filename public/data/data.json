@@ -1,0 +1,142 @@
+{
+    "title": "mariollesta's portfolio",
+    "description": "Technology passionate.",
+    "image": "/avatar.png",
+    "avatar": "/avatar.png",
+    "name": "Mario Llesta Muñoz",
+    "skill": "Teleco Engineer & Software Developer",
+    "location": "Wherever there is an Internet connection",
+    "media": {
+        "email": "mario.llesta@proton.me",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com/mariollesta",
+        "linkedin": "https://www.linkedin.com/in/mario-llesta/"
+    },
+    "about": "I am a telecommunications engineer and I develop opensource applications to simplify tasks.",
+    "technologies": [
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-fastapi-plain",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "Javascript"
+        },
+        {
+            "icon": "devicon-react-original",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-tailwindcss-original",
+            "name": "TailwindCSS"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-playwright-plain",
+            "name": "Playwright"
+        },
+        {
+            "icon": "devicon-jenkins-line",
+            "name": "Jenkins"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "utensils",
+            "title": "gotoeat",
+            "subtitle": "Proprietary software",
+            "description": "Web application for recommendations of places to eat",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-fastapi-plain",
+                    "name": "FastAPI"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "Javascript"
+                },
+                {
+                    "icon": "devicon-react-original",
+                    "name": "React"
+                },
+                {
+                    "icon": "devicon-tailwindcss-original",
+                    "name": "TailwindCSS"
+                }
+            ],
+            "image": "/gotoeat.jpg",
+            "url": "",
+            "github": "https://github.com/mariollesta/gotoeat"
+        },
+        {
+            "icon": "circle-user",
+            "title": "portfolio",
+            "subtitle": "Proprietary software",
+            "description": "Development of this portfolio inspired by the Mouredev template.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-devicon-plain",
+                    "name": "Reflex"
+                }
+            ],
+            "image": "",
+            "url": "",
+            "github": "https://github.com/mariollesta/portfolio"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "building-2",
+            "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
+            "subtitle": "Software QA Automation",
+            "description": "Design and execution of manual and automated tests, development of E2E and API tests based on Playwright and improvement of CI/CD with Jenkins.",
+            "date": "September 2022 - Current"
+        },
+        {
+            "icon": "building-2",
+            "title": "NTT DATA Europe & LATAM",
+            "subtitle": "Solutions Analyst Internship",
+            "description": "Developing AI-based solutions using Java, Spring Boot and containerised architectures.",
+            "date": "February 2022 - June 2022"
+        }
+    ],
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Degree in Engineering in Telecommunication Technology",
+            "subtitle": "University Carlos III of Madrid",
+            "description": "Average grade: 7.0",
+            "date": "2018-2022",
+            "certificate": "https://www.uc3m.es/grado/telecomunicacion"
+        }
+    ],
+    "extras": [
+        {
+            "image": "https://codingchallenges.fyi/img/logo.png",
+            "title": "Load balancer",
+            "description": "Contribution to John Crickett's opensource Coding Challenges project",
+            "url": "ttps://github.com/mariollesta/loadbalancer"
+        },
+        {
+            "image": "https://codingchallenges.fyi/img/logo.png",
+            "title": "Unix wc tool",
+            "description": "Contribution to John Crickett's opensource Coding Challenges project",
+            "url": "ttps://github.com/mariollesta/cli-wordcount"
+        }
+    ]
+}
