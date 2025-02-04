@@ -4,7 +4,7 @@
     "image": "/avatar.webp",
     "avatar": "/avatar.webp",
     "name": "Mario Llesta Muñoz",
-    "skill": "Teleco Engineer & Software Developer",
+    "skill": "Teleco Engineer & Fullstack Developer",
     "location": "Spain or wherever there is an Internet connection",
     "media": {
         "email": "mario.llesta@proton.me",
@@ -12,7 +12,7 @@
         "github": "https://github.com/mariollesta",
         "linkedin": "https://www.linkedin.com/in/mario-llesta/"
     },
-    "about": "I am a telecommunications engineer and I develop opensource applications to simplify tasks.",
+    "about": "Developing opensource applications to help you.",
     "technologies": [
         {
             "icon": "devicon-python-plain",
