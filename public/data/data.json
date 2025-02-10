@@ -49,10 +49,10 @@
     ],
     "projects": [
         {
-            "icon": "utensils",
-            "title": "gotoeat",
+            "icon": "compass",
+            "title": "locatall",
             "subtitle": "Proprietary software",
-            "description": "Web application for recommendations of places to eat",
+            "description": "Web application designed to help you find the best places nearby",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -75,9 +75,9 @@
                     "name": "TailwindCSS"
                 }
             ],
-            "image": "/gotoeat.jpg",
+            "image": "/locatall.webp",
             "url": "",
-            "github": "https://github.com/mariollesta/gotoeat"
+            "github": "https://github.com/mariollesta/locatall"
         },
         {
             "icon": "circle-user",
