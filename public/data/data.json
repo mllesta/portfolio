@@ -4,7 +4,7 @@
     "image": "/avatar.webp",
     "avatar": "/avatar.webp",
     "name": "Mario Llesta Muñoz",
-    "skill": "Teleco Engineer & Fullstack Developer",
+    "skill": "Teleco Engineer & Software Developer",
     "location": "Spain or wherever there is an Internet connection",
     "media": {
         "email": "mario.llesta@proton.me",
@@ -103,7 +103,7 @@
         {
             "icon": "building-2",
             "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
-            "subtitle": "Software QA Automation",
+            "subtitle": "Software QA Engineer",
             "description": "Design and execution of manual and automated tests, development of E2E and API tests based on Playwright and improvement of CI/CD with Jenkins.",
             "date": "September 2022 - Current"
         },
