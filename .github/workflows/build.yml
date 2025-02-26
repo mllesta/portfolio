@@ -41,4 +41,3 @@ jobs:
           commit_email: mario.llesta@proton.me
           commit_author: mariollesta
           file_pattern: public/*
-          
