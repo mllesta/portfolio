@@ -1,0 +1,45 @@
+name: Automated Build
+
+on: 
+  push:
+    branches: 
+      - develop
+
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with: 
+          ref: 'main'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.12'
+
+      - name: Merge develop in main
+        run: |
+          git config --local user.email "mario.llesta@proton.me"
+          git config --local user.name "mariollesta"
+          git merge origin/develop --no-ff -m "Merge develop in main"
+
+      - name: Run build.sh
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update portfolio
+          commit_username: Mario Llesta [GitHub Actions]
+          commit_email: mario.llesta@proton.me
+          commit_author: mariollesta
+          file_pattern: public/*
+          
