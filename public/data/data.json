@@ -4,7 +4,7 @@
     "image": "/avatar.webp",
     "avatar": "/avatar.webp",
     "name": "Mario Llesta Muñoz",
-    "skill": "Teleco Engineer & Software Developer",
+    "skill": "QA Automation Engineer",
     "location": "Spain or wherever there is an Internet connection",
     "media": {
         "email": "llesta.mario@gmail.com",
@@ -15,6 +15,18 @@
     "about": "Developing opensource applications to help you.",
     "technologies": [
         {
+            "icon": "devicon-playwright-plain",
+            "name": "Playwright"
+        },
+        {
+            "icon": "devicon-typescript-plain",
+            "name": "TypeScript"
+        },
+        {
+            "icon": "devicon-jenkins-line",
+            "name": "Jenkins"
+        },
+        {
             "icon": "devicon-python-plain",
             "name": "Python"
         },
@@ -24,7 +36,7 @@
         },
         {
             "icon": "devicon-javascript-plain",
-            "name": "Javascript"
+            "name": "JavaScript"
         },
         {
             "icon": "devicon-react-original",
@@ -37,14 +49,6 @@
         {
             "icon": "devicon-git-plain",
             "name": "Git"
-        },
-        {
-            "icon": "devicon-playwright-plain",
-            "name": "Playwright"
-        },
-        {
-            "icon": "devicon-jenkins-line",
-            "name": "Jenkins"
         }
     ],
     "projects": [
@@ -102,10 +106,24 @@
     "experience": [
         {
             "icon": "building-2",
+            "title": "knowmad mood",
+            "subtitle": "QA Engineer",
+            "description": "",
+            "date": "March 2025 - Current"
+        },
+        {
+            "icon": "building-2",
             "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
             "subtitle": "Software QA Engineer",
             "description": "Design and execution of manual and automated tests, development of E2E and API tests based on Playwright and improvement of CI/CD with Jenkins.",
-            "date": "September 2022 - Current"
+            "date": "July 2024 - March 2025"
+        },
+        {
+            "icon": "building-2",
+            "title": "OpenNAC Enterprise by Cipherbit (Grupo Oesía)",
+            "subtitle": "Professional Services Specialist",
+            "description": "I participated in the implementation of the OpenNAC/EMMA project, managing Linux systems, databases, automation with Ansible, and log analysis with Elasticsearch.",
+            "date": "September 2022 - July 2024"
         },
         {
             "icon": "building-2",
