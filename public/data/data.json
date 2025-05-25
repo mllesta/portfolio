@@ -4,7 +4,7 @@
     "image": "/avatar.webp",
     "avatar": "/avatar.webp",
     "name": "Mario Llesta Muñoz",
-    "skill": "QA Automation Engineer",
+    "skill": "Automation Engineer",
     "location": "Spain or wherever there is an Internet connection",
     "media": {
         "email": "llesta.mario@gmail.com",
@@ -21,10 +21,6 @@
         {
             "icon": "devicon-typescript-plain",
             "name": "TypeScript"
-        },
-        {
-            "icon": "devicon-jenkins-line",
-            "name": "Jenkins"
         },
         {
             "icon": "devicon-python-plain",
@@ -47,8 +43,16 @@
             "name": "TailwindCSS"
         },
         {
+            "icon": "devicon-jenkins-line",
+            "name": "Jenkins"
+        },
+        {
             "icon": "devicon-git-plain",
             "name": "Git"
+        },
+        {
+            "icon": "devicon-github-plain",
+            "name": "GitHub"
         }
     ],
     "projects": [
